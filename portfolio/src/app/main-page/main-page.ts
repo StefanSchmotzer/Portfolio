@@ -3,10 +3,11 @@ import { Hero } from '../hero/hero';
 import { AboutMe } from '../about-me/about-me';
 import { Skills } from '../skills/skills';
 import { MyProjects } from '../my-projects/my-projects';
+import { Colleagues } from '../colleagues/colleagues';
 import { Contact } from '../contact/contact';
 
 @Component({
-  imports: [Hero, AboutMe, Skills, MyProjects, Contact],
+  imports: [Hero, AboutMe, Skills, MyProjects, Colleagues, Contact],
   selector: 'app-main-page',
   styleUrl: './main-page.scss',
   templateUrl: './main-page.html',
