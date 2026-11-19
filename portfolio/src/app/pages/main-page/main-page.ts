@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import { Hero } from '../hero/hero';
-import { AboutMe } from '../about-me/about-me';
-import { Skills } from '../skills/skills';
-import { MyProjects } from '../my-projects/my-projects';
-import { Colleagues } from '../colleagues/colleagues';
-import { Contact } from '../contact/contact';
-import { Hero_1 as Hero } from '../../sections/hero/hero';
+import { Hero } from '../../sections/hero/hero';
+import { AboutMe } from '../../sections/about-me/about-me';
+import { Skills } from '../../sections/skills/skills';
+import { MyProjects } from '../../sections/my-projects/my-projects';
+import { Colleagues } from '../../sections/colleagues/colleagues';
+import { Contact } from '../../sections/contact/contact';
+
 
 @Component({
-  imports: [Hero, AboutMe, Skills, MyProjects, Colleagues, Contact, Hero_1],
+  imports: [Hero, AboutMe, Skills, MyProjects, Colleagues, Contact],
   selector: 'app-main-page',
   styleUrl: './main-page.scss',
   templateUrl: './main-page.html',
