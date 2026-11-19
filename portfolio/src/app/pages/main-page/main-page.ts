@@ -5,7 +5,7 @@ import { Skills } from '../skills/skills';
 import { MyProjects } from '../my-projects/my-projects';
 import { Colleagues } from '../colleagues/colleagues';
 import { Contact } from '../contact/contact';
-import { Hero_1 as Hero } from '../../hero/hero';
+import { Hero_1 as Hero } from '../../sections/hero/hero';
 
 @Component({
   imports: [Hero, AboutMe, Skills, MyProjects, Colleagues, Contact, Hero_1],
