@@ -1,0 +1,136 @@
+{
+  "header-menu": {
+    "link-about": "About me",
+    "link-skills": "Skills",
+    "link-projects": "Projects"
+  },
+  "hero-section": {
+    "job-title": "Fullstack Developer",
+    "btn-check-work": "my Projects",
+    "btn-contact": "Contact me",
+    "ticker-based": "Based in Schmiedehausen",
+    "ticker-remote": "Available remote and on-site"
+  },
+  "about-me-section": {
+    "sub-title": "Who I Am",
+    "main-title": "About me",
+    "intro-text": "Hi I’m Stefan. With my roots in Craftsmanship and a passion for software development, I transform visions into practical, intuitive, and accessible solutions.",
+    "location-text": "Based in Germany, I am living in 'Weimarer-Land', a region of Thuringia for 12 Years. I have worked in offices on-site as well as remotely and I am open to other types of work arrangements.",
+    "mindset-text": "Using current technologies and best practices, I optimize workflows and develop efficient, scalable, and maintainable code.",
+    "puzzle-text": "I approach challenges with curiosity and a systematic mindset, and I value clear solutions, open communication, and the sharing of knowledge within the team."
+  },
+  "skills-overview": {
+    "sub-title": "Technologies",
+    "main-title": "Skill Set",
+    "description-text": "Drawing on my professional experience, I take a practical, solution-oriented approach to my work. I develop modern web applications using Angular and TypeScript, integrating data-driven REST APIs. My work is characterized by clean code, intuitive design, and a keen focus on performance and accessibility.",
+    "cta-headline": "Are there any other <span class=\"highlight\">skills missing?</span>",
+    "cta-text": "Throughout my professional career, I have continuously learned and explored new paths, and I remain committed to further developing my expertise. I view new technologies and challenges as opportunities: if a project requires tools outside of my existing stack, I approach learning them with enthusiasm and purposefully expand my skill set.",
+    "cta-btn": "Let's Talk",
+    "tooltip-learning": "I also have a special interest in learning:"
+  },
+  "projects-showcase": {
+    "sub-title": "Portfolio",
+    "main-title": "Featured Projects",
+    "description-text": "Explore a selection of my fullstack work, from modern frontends and APIs to cloud deployments.",
+    "dialog-subtitle": "What is this project about?",
+    "description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    "dialog-btn-github": "GitHub",
+    "dialog-btn-live": "Live Test",
+    "dialog-btn-next": "Next project →"
+  },
+  "colleague-feedback": {
+    "main-title": "What colleagues say about me",
+    "testimonials": [
+      {
+        "name": "Max Mustermann",
+        "text": "Working with Stefan bla bla bla was an absolute pleasure."
+      },
+      {
+        "name": "Martina Musterfrau",
+        "text": "Stefan delivered outstanding results on our web development project."
+      },
+      {
+        "name": "Paul Platzhalter",
+        "text": "Collaborating with Stefan on the Example project was a highly rewarding experience."
+      }
+    ]
+  },
+  "contact-area": {
+    "sub-title": "Contact me",
+    "main-title": "Let's work<br>together",
+    "info-heading": "Got a problem to solve?",
+    "info-text": "Don't hesitate to reach out! Tell me about your project and let's see how I can add real value to your team across the full stack.",
+    "info-call-to-action-text": "Need a Fullstack developer? ",
+    "info-call-to-action-link": "Let's talk!",
+    "modal-success-title": "Thank you!",
+    "modal-success-text": "Your message has been sent. I will get back to you shortly.",
+    "label-name": "What's your name?",
+    "placeholder-name": "Your name goes here",
+    "error-name": "Oops! it seems your name is missing",
+    "label-email": "What's your email?",
+    "placeholder-email": "youremail@email.com",
+    "error-email": "Oops! Your email is required",
+    "label-message": "How can I help you?",
+    "placeholder-message": "Hello Stefan, I am interested in...",
+    "error-message": "What do you need to develop?",
+    "policy-agreement-start": "I've read the ",
+    "policy-agreement-link": "privacy policy",
+    "policy-agreement-end": " and agree to the processing of my data as outlined.",
+    "error-policy": "Please accept the privacy policy.",
+    "submit-btn": "Say Hello :)"
+  },
+  "footer-info": {
+    "role-text": "Fullstack Developer",
+    "location-text": "Schmiedehausen Germany",
+    "link-legal": "Legal Notice"
+  },
+  "legal-notice": {
+    "headline": "Legal Notice",
+    "imprint-sub": "Information according to § 5 TMG",
+    "contact-sub": "Contact",
+    "email-label": "E-Mail",
+    "liability-sub": "Liability for content",
+    "liability-text": "As a service provider, I am responsible for my own content on these pages in accordance with general laws under § 7 (1) TMG.",
+    "links-liability-sub": "Liability for links",
+    "links-liability-text": "Our website contains links to external third-party websites over whose content we have no control. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages.",
+    "copyright-sub": "Copyright",
+    "copyright-text": "The content and works created by the site operator on these pages are subject to German copyright law. Reproduction, processing, distribution, or any form of commercialization requires the written consent of the respective author or creator."
+  },
+  "privacy-policy": {
+    "headline": "Privacy Policy",
+    "sec1-title": "1. Data Protection at a Glance",
+    "sec1-gen-sub": "General Information",
+    "sec1-gen-text": "The following notes provide a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to personally identify you. Detailed information can be found in our privacy policy below.",
+    "sec1-coll-sub": "Data Collection on This Website",
+    "sec1-coll-text1": "Who is responsible for data collection on this website? Data processing on this website is carried out by the website operator. Their contact details can be found in the section 'Notice concerning the responsible entity' in this privacy policy.",
+    "sec1-coll-text2": "How do we collect your data? Your data is collected when you provide it to us, e.g., via a contact form. Other data is collected automatically by our IT systems when you visit the website (e.g., internet browser, operating system, or time of access).",
+    "sec1-coll-text3": "What do we use your data for? Some data is collected to ensure error-free provision of the website. Other data may be used to analyze your user behavior.",
+    "sec1-coll-text4": "What rights do you have regarding your data? You have the right at any time to obtain information free of charge about the origin, recipient, and purpose of your stored personal data. You also have the right to request correction or deletion of this data.",
+    "sec2-title": "2. Hosting",
+    "sec2-host-sub": "External Hosting with Hetzner",
+    "sec2-host-text": "We host our website with Hetzner Online GmbH. The provider is Hetzner Online GmbH, Industriestr. 25, 91152 Pleinfeld, Germany (hereinafter Hetzner). When you visit our website, Hetzner collects various server log files including your IP addresses. For details, please see Hetzner's privacy policy: https://www.hetzner.com/legal/privacy-policy/. The use of Hetzner is based on Art. 6 (1) (f) GDPR. We have a legitimate interest in the most reliable presentation of our website.",
+    "sec3-title": "3. General Information and Mandatory Notices",
+    "sec3-prot-sub": "Data Protection",
+    "sec3-prot-text": "The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.",
+    "sec3-resp-sub": "Notice concerning the responsible entity",
+    "sec3-resp-text": "The responsible entity for data processing on this website is: Nico Leiteritz, Herzoggraben 16b, 84405 Dorfen. Email: kontakt@nico-leiteritz.de. The responsible entity is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data.",
+    "sec3-stor-sub": "Storage period",
+    "sec3-stor-text": "Unless a more specific storage period has been specified in this privacy policy, your personal data will remain with us until the purpose for the data processing no longer applies.",
+    "sec3-rev-sub": "Revocation of your consent to data processing",
+    "sec3-rev-text": "Many data processing operations are only possible with your explicit consent. You can revoke consent you have already given at any time.",
+    "sec3-obj-sub": "Right to object to data collection (Art. 21 GDPR)",
+    "sec3-obj-text": "IF DATA PROCESSING IS CARRIED OUT ON THE BASIS OF ART. 6 (1) LIT. E OR F GDPR, YOU HAVE THE RIGHT TO OBJECT TO THE PROCESSING OF YOUR PERSONAL DATA AT ANY TIME.",
+    "sec3-com-sub": "Right to lodge a complaint",
+    "sec3-com-text": "In the event of violations of the GDPR, data subjects have the right to lodge a complaint with a supervisory authority.",
+    "sec3-ssl-sub": "SSL or TLS encryption",
+    "sec3-ssl-text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content. You can recognize an encrypted connection by the lock symbol in your browser.",
+    "sec4-title": "4. Data collection on this website",
+    "sec4-log-sub": "Server log files",
+    "sec4-log-text": "The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us.",
+    "sec4-mail-sub": "Inquiry by e-mail or contact form",
+    "sec4-mail-text": "If you contact us by e-mail or via a contact form, your inquiry, including all resulting personal data, will be stored and processed by us for the purpose of processing your request.",
+    "sec5-title": "5. Plugins and Tools",
+    "sec5-font-sub": "Google Fonts (local hosting)",
+    "sec5-font-text": "This site uses so-called Google Fonts for the uniform display of fonts, which are installed locally. A connection to Google servers does not take place."
+  }
+}
