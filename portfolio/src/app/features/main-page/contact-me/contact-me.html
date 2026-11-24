@@ -1,0 +1,83 @@
+<section class="contact" id="contact">
+  <div class="contact__inner">
+    <div class="contact__content">
+      <span class="contact__subtitle">{{ 'contact-area.sub-title' | translate }}</span>
+      <h2 class="contact__title" [innerHTML]="'contact-area.main-title' | translate"></h2>
+
+      <div class="contact__info">
+        <h3 class="contact__heading">{{ 'contact-area.info-heading' | translate }}</h3>
+        <p class="contact__text">
+          {{ 'contact-area.info-text' | translate }}
+        </p>
+        <p class="contact__text contact__text--bold">
+          <a href="#contact" class="contact__link">{{ 'contact-area.info-call-to-action-link' | translate }}</a>
+          {{ 'contact-area.info-call-to-action-text' | translate }}
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="contact__form-wrapper">
+      @if (isSubmitted()) {
+        <div class="modal-overlay">
+          <div class="form__success-message">
+            <h3 class="contact__heading">{{ 'contact-area.modal-success-title' | translate }}</h3>
+            <p class="contact__text">{{ 'contact-area.modal-success-text' | translate }}</p>
+          </div>
+        </div>
+      }
+
+      <form class="form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <div class="form__group">
+          <label for="name" class="form__label">{{ 'contact-area.label-name' | translate }}</label>
+          <input type="text" id="name" formControlName="name" class="form__input" [placeholder]="'contact-area.placeholder-name' | translate">
+          
+          @if (contactForm.get('name')?.invalid && (contactForm.get('name')?.touched || submitAttempt())) {
+            <span class="form__error">{{ 'contact-area.error-name' | translate }}</span>
+          }
+        </div>
+
+        <div class="form__group">
+          <label for="email" class="form__label">{{ 'contact-area.label-email' | translate }}</label>
+          <input type="email" id="email" formControlName="email" class="form__input" [placeholder]="'contact-area.placeholder-email' | translate">
+          
+          @if (contactForm.get('email')?.invalid && (contactForm.get('email')?.touched || submitAttempt())) {
+            <span class="form__error">{{ 'contact-area.error-email' | translate }}</span>
+          }
+        </div>
+
+        <div class="form__group">
+          <label for="message" class="form__label">{{ 'contact-area.label-message' | translate }}</label>
+          <textarea id="message" formControlName="message" class="form__input form__textarea" [placeholder]="'contact-area.placeholder-message' | translate"></textarea>
+          
+          @if (contactForm.get('message')?.invalid && (contactForm.get('message')?.touched || submitAttempt())) {
+            <span class="form__error">{{ 'contact-area.error-message' | translate }}</span>
+          }
+        </div>
+
+        <div class="form__policy-group">
+          <div class="form__checkbox-layout">
+            <label class="form__checkbox-wrapper" for="policy-checkbox">
+              <input type="checkbox" id="policy-checkbox" formControlName="policy" class="form__checkbox" aria-labelledby="policy-desc">
+              <span class="form__checkmark"></span>
+            </label>
+            
+            <div id="policy-desc" class="form__policy-text">
+              {{ 'contact-area.policy-agreement-start' | translate }}
+              <a routerLink="/privacy-policy" class="form__policy-link" (click)="$event.stopPropagation()">{{ 'contact-area.policy-agreement-link' | translate }}</a>
+              {{ 'contact-area.policy-agreement-end' | translate }}
+            </div>
+          </div>
+
+          @if (contactForm.get('policy')?.invalid && (contactForm.get('policy')?.touched || submitAttempt())) {
+            <span class="form__error form__error--policy" aria-live="polite">{{ 'contact-area.error-policy' | translate }}</span>
+          }
+        </div>
+
+        <div class="form__actions">
+          <button type="submit" class="form__submit">{{ 'contact-area.submit-btn' | translate }}</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

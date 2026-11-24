@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'abstracts/mixins';
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("/assets/fonts/Fira_Code/static/FiraCode-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("/assets/fonts/Karla/static/Karla-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bilbo";
+  src: url("/assets/fonts/Bilbo/Bilbo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-primary: "Fira Code", monospace; 
+  --hero-gradient: radial-gradient(ellipse at 85% 25%, #80bbff 0%, #1C1C1C 60%);
+  --line-color: rgba(0, 0, 0, 0.321);
+}
+
+.dark-mode {
+  --line-color: rgba(255, 255, 255, 0.321);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-content-flex {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

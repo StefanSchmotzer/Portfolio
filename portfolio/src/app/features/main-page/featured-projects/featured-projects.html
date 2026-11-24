@@ -1,0 +1,50 @@
+<div id="projects" class="section_projects">
+  <div class="section_projects__inner">
+    <div class="section_projects__content">
+      
+      <div class="section_projects__header">
+        <span class="section_projects__overbox_headline">{{ 'projects-showcase.sub-title' | translate }}</span>
+        <h2 class="section_projects__headline">{{ 'projects-showcase.main-title' | translate }}</h2>
+        <p class="section_projects__description">
+          {{ 'projects-showcase.description-text' | translate }}
+        </p>
+      </div>
+
+      <div class="section_projects__list" (mouseleave)="hoveredProject = null">
+        @for (project of projects; track project.title) {
+          
+          <div class="project_item" 
+               [class.is-active]="hoveredProject === project"
+               (mouseenter)="hoveredProject = project"
+               (click)="openProjectDialog(project)">
+            
+            <div class="project_item__info">
+              <h3 class="project_item__title">
+                {{ project.title }}
+                <span class="project_item__arrow">↗</span>
+              </h3>
+              <span class="project_item__tech">{{ project.tech.join(' | ') }}</span>
+            </div>
+
+            @if (hoveredProject === project) {
+              <div class="project_item__preview">
+                <div class="preview-wrapper">
+                  <img [src]="project.img" [alt]="project.title" class="preview-img">
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
+
+@if (activeProject) {
+  <app-featured-projects-dialog
+    [project]="activeProject"
+    (closeDialog)="closeProjectDialog()"
+    (nextProject)="nextProject($event)"
+  >
+  </app-featured-projects-dialog>
+}

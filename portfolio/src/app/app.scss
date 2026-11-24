@@ -1,0 +1,28 @@
+@use 'abstracts/mixins';
+
+.cursor-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  
+  background: radial-gradient(
+    circle, 
+    rgba(128, 187, 255, 0.25) -25%,
+    transparent 25%
+  );
+  
+  pointer-events: none; 
+  
+  z-index: 9999; 
+
+  transform: translate(
+    calc(var(--mouse-x, 0px) - 300px), 
+    calc(var(--mouse-y, 0px) - 300px)
+  );
+  
+  transition: transform 0.05s linear; 
+}
+

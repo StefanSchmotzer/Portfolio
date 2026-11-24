@@ -1,0 +1,41 @@
+<footer class="footer">
+  <div class="footer__inner">
+    
+    <div class="footer__brand">
+      <div class="footer__logo-container">
+        <div routerLink="/" class="footer__logo-icon">
+        </div>
+        <div routerLink="/" class="footer__logo-icon" class="footer__logo-text">
+          <span class="footer__logo-line">Stefan</span>
+          <span class="footer__logo-line">Schmotzer</span>
+        </div>
+      </div>
+      <div class="footer__meta">
+        <span class="footer__meta-item">{{ 'footer-info.role-text' | translate }}</span>
+        <span class="footer__meta-item">{{ 'footer-info.location-text' | translate }}</span>
+      </div>
+    </div>
+
+    <div class="footer__copyright">
+      <p class="footer__copyright-text">© Stefan Schmotzer {{ currentYear() }}</p>
+    </div>
+
+    <nav class="footer__navigation">
+      <ul class="footer__links">
+        <li class="footer__link-item">
+          <a href="https://github.com/StefanSchmotzer" target="_blank" rel="noopener" class="footer__link">Github</a>
+        </li>
+        <li class="footer__link-item">
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="footer__link">LinkedIn</a>
+        </li>
+        <li class="footer__link-item">
+          <a href="mailto:s-schmotzer@t-online.de.de" class="footer__link">Email</a>
+        </li>
+        <li class="footer__link-item">
+          <a routerLink="/legal-notice" class="footer__link">{{ 'footer-info.link-legal' | translate }}</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</footer>

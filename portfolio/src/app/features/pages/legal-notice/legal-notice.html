@@ -1,0 +1,44 @@
+<div class="app-wrapper">
+  <app-header></app-header>
+  
+  <main class="legal-notice" id="main-content">
+    <div class="legal-notice__inner">
+      <h1 class="legal-notice__headline">{{ 'legal-notice.headline' | translate }}</h1>
+
+      <div class="legal-notice__content">
+        <section class="legal-notice__section">
+          <h2 class="legal-notice__subheadline">{{ 'legal-notice.imprint-sub' | translate }}</h2>
+          <p>
+            Stefan Schmotzer<br>
+            Lachstedt 15<br>
+            99518 Schmiedehausen
+          </p>
+        </section>
+
+        <section class="legal-notice__section">
+          <h2 class="legal-notice__subheadline">{{ 'legal-notice.contact-sub' | translate }}</h2>
+          <p>
+            {{ 'legal-notice.email-label' | translate }}: <a href="mailto:s-schmotzer@t-online.de" class="legal-notice__link">s-schmotzer@t-online.de</a>
+          </p>
+        </section>
+
+        <section class="legal-notice__section">
+          <h2 class="legal-notice__subheadline">{{ 'legal-notice.liability-sub' | translate }}</h2>
+          <p>{{ 'legal-notice.liability-text' | translate }}</p>
+        </section>
+
+        <section class="legal-notice__section">
+          <h2 class="legal-notice__subheadline">{{ 'legal-notice.links-liability-sub' | translate }}</h2>
+          <p>{{ 'legal-notice.links-liability-text' | translate }}</p>
+        </section>
+        
+        <section class="legal-notice__section">
+          <h2 class="legal-notice__subheadline">{{ 'legal-notice.copyright-sub' | translate }}</h2>
+          <p>{{ 'legal-notice.copyright-text' | translate }}</p>
+        </section>
+      </div>
+    </div>
+  </main>
+  
+  <app-footer-section></app-footer-section>
+</div>

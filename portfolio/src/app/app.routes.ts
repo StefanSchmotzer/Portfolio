@@ -1,10 +1,24 @@
 import { Routes } from '@angular/router';
-import { MainPage } from './pages/main-page/main-page';
-import { LegalNotice } from './pages/legal-notice/legal-notice';
-import { PrivacyPolicy } from './pages/privacy-policy/privacy-policy';
+import { Home } from '@features/home/home';
+import { AboutMe } from '@main-page/about-me/about-me';
+import { LegalNotice } from '@pages/legal-notice/legal-notice';
+import { PrivacyPolicy } from '@pages/privacy-policy/privacy-policy';
 
 export const routes: Routes = [
-    {path: '', component: MainPage },
-    {path: 'legal-notice', component: LegalNotice},
-    {path: 'privacy-policy', component: PrivacyPolicy}
+    {
+        path: "",
+        component: Home
+    },
+    {
+        path: "about_me",
+        component: AboutMe
+    },
+    {
+        path: "legal-notice",
+        component: LegalNotice
+    },
+    {
+        path: "privacy-policy",
+        component: PrivacyPolicy
+    }
 ];
