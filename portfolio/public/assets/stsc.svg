@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g fill="none" stroke="#FFFFFF" stroke-width="14"
+     stroke-linecap="square" stroke-linejoin="miter">
+    <!-- Outer square brackets -->
+      <path d="M105 75 H65 V437 H105"/>
+      <path d="M407 75 H447 V437 H407"/>
+      <!-- Angle brackets ST -->
+        <path d="M190 125 L145 190 L190 255"/>
+        <path d="M322 125 L367 190 L322 255"/>
+        <!-- Angle brackets SC -->
+          <path d="M190 265 L145 330 L190 395"/>
+          <path d="M322 265 L367 330 L322 395"/>
+        </g>
+        <g fill="#FFFFFF"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="112"
+     font-weight="900"
+     text-anchor="middle"
+     letter-spacing="-2">
+          <text x="256" y="225">
+            ST
+          </text>
+          <text x="256" y="365">
+            SC
+          </text>
+        </g>
+      </svg>
