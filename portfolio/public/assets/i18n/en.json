@@ -42,16 +42,16 @@
     "main-title": "What colleagues say about me",
     "testimonials": [
       {
-        "name": "Max Mustermann",
-        "text": "Working with Stefan bla bla bla was an absolute pleasure."
+        "name": "Neelima B.",
+        "text": "I appreciate Stefan’s creative approach to web design. He builds clean, attractive websites with concise, readable code and an organized structure. He’s also an encouraging, approachable teammate who’s always willing to help. Any team would be lucky to have him."
       },
       {
         "name": "Martina Musterfrau",
-        "text": "Stefan delivered outstanding results on our web development project."
+        "text": "Stefan ensured that this sample text is outstanding during our web development project."
       },
       {
         "name": "Paul Platzhalter",
-        "text": "Collaborating with Stefan on the Example project was a highly rewarding experience."
+        "text": "Working with Stefan on the sample project was a placeholder experience"
       }
     ]
   },

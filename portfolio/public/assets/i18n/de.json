@@ -42,16 +42,16 @@
     "main-title": "Das sagen Kollegen über mich",
     "testimonials": [
       {
-        "name": "Max Mustermann",
-        "text": "Das Arbeiten mit Stefan bla bla bla."
+        "name": "Neelima B.",
+        "text": "Ich schätze Stefans kreative Herangehensweise an Webdesign. Er entwickelt ansprechende Websites mit klarem, gut lesbarem Code und bringt sich hilfsbereit und ermutigend ins Team ein. Jedes Team kann sich glücklich schätzen, ihn dabei zu haben."
       },
       {
         "name": "Martina Musterfrau",
-        "text": "Stefan hat bei unserem Webentwicklungsprojekt herausragende Ergebnisse geliefert."
+        "text": "Stefan hat bei unserem Webentwicklungsprojekt Dafür gesorgt das dieser Mustertext herausragend ist."
       },
       {
         "name": "Paul Platzhalter",
-        "text": "Die Zusammenarbeit mit Stefan bei dem Beispielprojekt war eine überaus bereichernde Erfahrung."
+        "text": "Die Zusammenarbeit mit Stefan bei dem Beispielprojekt war eine Platzhalter Erfahrung"
       }
     ]
   },
