@@ -102,7 +102,7 @@
     display: flex;
     align-items: center;
     background: transparent;
-    border: 1px solid #80bbff7a;
+    border: 1px solid #ffca1b;
     border-radius: 3rem;
     padding: 0;
     cursor: pointer;
@@ -125,9 +125,9 @@
     transition: all 0.3s ease;
 
     &--active {
-      background-color: #80bbff;
-      color: #1c1c1c;
-      font-weight: 700;
+      background-color: #3dcfb6;
+      color: #ffffff;
+      font-weight: 500;
     }
   }
 
