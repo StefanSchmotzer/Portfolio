@@ -42,7 +42,7 @@ export class FeaturedProjects {
         'Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.',
       img: '/assets/featured-projects/el-pollo-loco.svg',
       github: 'https://github.com/StefanSchmotzer/El-Pollo-Loco',
-      live: 'https://stefanschmotzer.developerakademie.net/el-pollo-loco/index.html',
+      live: 'http://elpolloloco.stefan-schmotzer.de/',
     },
     {
       number: '03',
