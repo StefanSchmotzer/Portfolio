@@ -26,16 +26,6 @@ export class FeaturedProjects {
   projects: Project[] = [
     {
       number: '01',
-      title: 'probably Join',
-      tech: ['CSS', 'HTML', 'Supabase', 'Angular', 'TypeScript'],
-      description:
-        'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      img: '/assets/featured-projects/join.svg',
-      github: 'https://github.com/StefanSchmotzer',
-      live: '',
-    },
-    {
-      number: '02',
       title: 'El Pollo Loco',
       tech: ['JavaScript', 'HTML', 'CSS'],
       description:
@@ -43,6 +33,16 @@ export class FeaturedProjects {
       img: '/assets/featured-projects/el-pollo-loco.svg',
       github: 'https://github.com/StefanSchmotzer/El-Pollo-Loco',
       live: 'http://elpolloloco.stefan-schmotzer.de/',
+    },
+    {
+      number: '02',
+      title: 'probably Join',
+      tech: ['CSS', 'HTML', 'Supabase', 'Angular', 'TypeScript'],
+      description:
+        'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
+      img: '/assets/featured-projects/join.svg',
+      github: 'https://github.com/StefanSchmotzer',
+      live: '',
     },
     {
       number: '03',
