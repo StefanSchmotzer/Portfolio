@@ -56,12 +56,12 @@
     align-items: center;
     gap: 1rem;
     transform: translateX(-0.7rem);
+    cursor: pointer;
   }
 
   &__logo-icon {
-    width: 0.2rem;
-    height: 0.2rem;
-    cursor: pointer;
+    width: 8rem;
+    height: 8rem;
   }
 
   &__logo-text {

@@ -1,12 +1,12 @@
 <header class="header">
   <div class="header__inner">
-    <div class="header__logo-container">
-      <div routerLink="/" class="header__logo-icon">
+    <div routerLink="/" class="header__logo-container">
+      <div class="header__logo-icon">
         <img class="header__icon" src="assets/ssc_logo.png" alt="my logo">
       </div>
-      <div class="header__logo-text">
-        <span>Stefan</span>
-        <span>Schmotzer</span>
+        <div class="header__logo-text">
+          <span>Stefan</span>
+          <span>Schmotzer</span>
       </div>
     </div>
 
@@ -15,18 +15,18 @@
         <span class="header__lang-text" [class.header__lang-text--active]="currentLang() === 'EN'">EN</span>
         <span class="header__lang-text" [class.header__lang-text--active]="currentLang() === 'DE'">DE</span>
       </button>
-      
+
       <nav class="header__nav">
-        <a [routerLink]="['/']" fragment="about" class="header__nav-link" routerLinkActive="active" 
-           [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
+        <a [routerLink]="['/']" fragment="about" class="header__nav-link" routerLinkActive="active"
+          [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
           {{ 'header-menu.link-about' | translate }}
         </a>
-        <a [routerLink]="['/']" fragment="skills" class="header__nav-link" routerLinkActive="active" 
-           [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
+        <a [routerLink]="['/']" fragment="skills" class="header__nav-link" routerLinkActive="active"
+          [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
           {{ 'header-menu.link-skills' | translate }}
         </a>
-        <a [routerLink]="['/']" fragment="projects" class="header__nav-link" routerLinkActive="active" 
-           [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
+        <a [routerLink]="['/']" fragment="projects" class="header__nav-link" routerLinkActive="active"
+          [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
           {{ 'header-menu.link-projects' | translate }}
         </a>
       </nav>
@@ -41,20 +41,23 @@
 
   <div class="header__mobile-overlay" [class.open]="isMenuOpen()">
     <nav class="header__mobile-nav">
-      <a [routerLink]="['/']" fragment="about" class="header__mobile-link" (click)="toggleMenu()" routerLinkActive="active" 
-         [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
+      <a [routerLink]="['/']" fragment="about" class="header__mobile-link" (click)="toggleMenu()"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
         {{ 'header-menu.link-about' | translate }}
       </a>
-      <a [routerLink]="['/']" fragment="skills" class="header__mobile-link" (click)="toggleMenu()" routerLinkActive="active" 
-         [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
+      <a [routerLink]="['/']" fragment="skills" class="header__mobile-link" (click)="toggleMenu()"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
         {{ 'header-menu.link-skills' | translate }}
       </a>
-      <a [routerLink]="['/']" fragment="projects" class="header__mobile-link" (click)="toggleMenu()" routerLinkActive="active" 
-         [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
+      <a [routerLink]="['/']" fragment="projects" class="header__mobile-link" (click)="toggleMenu()"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ paths: 'exact', queryParams: 'ignored', fragment: 'exact', matrixParams: 'ignored' }">
         {{ 'header-menu.link-projects' | translate }}
       </a>
     </nav>
-    
+
     <button class="header__lang-toggle header__lang-toggle--mobile" (click)="toggleLanguage()">
       <span class="header__lang-text" [class.header__lang-text--active]="currentLang() === 'EN'">EN</span>
       <span class="header__lang-text" [class.header__lang-text--active]="currentLang() === 'DE'">DE</span>
