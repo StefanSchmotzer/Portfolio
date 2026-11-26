@@ -33,6 +33,7 @@ export class Header {
    */
   public isMenuOpen = signal<boolean>(false);
 
+
   /**
    * Injected translation service used to update the active language 
    * dynamically across the application.
@@ -40,6 +41,12 @@ export class Header {
    * @private
    */
   private translate = inject(TranslateService);
+  constructor() {
+  const savedLanguage = localStorage.getItem('selectedLanguage') ?? 'EN';
+  const language: 'EN' | 'DE' = savedLanguage === 'DE' ? 'DE' : 'EN';
+  this.currentLang.set(language);
+  this.translate.use(language.toLowerCase());
+}
 
   /**
    * Toggles the active application language between English ('EN') and German ('DE').
@@ -53,7 +60,7 @@ export class Header {
   public toggleLanguage(): void {
     const newLang = this.currentLang() === 'EN' ? 'DE' : 'EN';
     this.currentLang.set(newLang);
-
+    localStorage.setItem('selectedLanguage', newLang);
     this.translate.use(newLang.toLowerCase()); 
   }
 
