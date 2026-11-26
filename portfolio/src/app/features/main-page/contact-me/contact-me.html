@@ -74,8 +74,8 @@
           }
         </div>
 
-        <div class="form__actions">
-          <button type="submit" class="form__submit">{{ 'contact-area.submit-btn' | translate }}</button>
+        <div class="form__actions" [formGroup]="contactForm">
+          <button type="submit" [disabled]="contactForm.invalid" class="form__submit">{{ 'contact-area.submit-btn' | translate }}</button>
         </div>
       </form>
     </div>

@@ -297,11 +297,12 @@ select:-webkit-autofill:focus {
     font-family: var(--font-secondary, 'Karla', sans-serif);
     font-size: 1.6rem;
     padding: 1.6rem 4rem;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 4rem;
+    box-shadow: 1px 5px 50px #3dcfb799;
     cursor: pointer;
     transition: all 0.3s ease;
-
+    
     @media (max-width: 480px) {
       width: 100%;
     }
@@ -309,11 +310,13 @@ select:-webkit-autofill:focus {
     &:hover:not(:disabled) {
       background-color: #3dcfb799;
       border: 1px solid #ffca1b;
+      box-shadow: inset 0em 0em 0.5em #ffffff;
       color: #ffffff;
     }
 
     &:disabled {
       opacity: 0.4;
+      box-shadow: 1px 5px 50px red;
       cursor: not-allowed;
     }
   }
