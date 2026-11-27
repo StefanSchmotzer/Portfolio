@@ -6,8 +6,8 @@
   },
   "hero-section": {
     "job-title": "Fullstack Developer",
-    "btn-check-work": "my Projects",
-    "btn-contact": "Contact me",
+    "btn-check-work": "Projects",
+    "btn-contact": "Contact",
     "ticker-based": "Based in Schmiedehausen",
     "ticker-remote": "Available remote and on-site"
   },
